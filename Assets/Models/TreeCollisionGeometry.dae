@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 2.72.0 commit date:2014-09-23, commit time:18:40, hash:eb464ee</authoring_tool>
+    </contributor>
+    <created>2015-01-16T23:59:22</created>
+    <modified>2015-01-16T23:59:22</modified>
+    <unit name="meter" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_images/>
+  <library_effects/>
+  <library_geometries>
+    <geometry id="TreeCollisionGeometry-mesh" name="TreeCollisionGeometry">
+      <mesh>
+        <source id="TreeCollisionGeometry-mesh-positions">
+          <float_array id="TreeCollisionGeometry-mesh-positions-array" count="48">-1 -1 0 -1 1 0 1 1 0 1 -1 0 -1 -1 3.659267 -1 1 3.659267 1 1 3.659267 1 -1 3.659267 -2.965362 -2.550547 4.1926 -2.965362 3.340671 4.1926 3.735733 3.340671 4.1926 3.735733 -2.550547 4.1926 -2.945609 -2.550547 7.428176 -2.945609 3.340671 7.428176 3.755486 3.340671 7.428176 3.755486 -2.550547 7.428176</float_array>
+          <technique_common>
+            <accessor source="#TreeCollisionGeometry-mesh-positions-array" count="16" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="TreeCollisionGeometry-mesh-normals">
+          <float_array id="TreeCollisionGeometry-mesh-normals-array" count="84">-1 0 0 0 1 0 1 0 0 0 -1 0 0 0 -1 0 -0.3252612 -0.9456242 0 -1 0 0.1913484 0 -0.9815222 0 0.2221608 -0.9750101 -0.2618948 0 -0.9650964 0 0 1 0.9999813 0 -0.006104767 0 1 0 -0.9999813 0 0.006104886 -1 0 0 0 1 0 1 0 0 0 -1 0 0 0 -1 0 -0.3252612 -0.9456242 0 -1 0 0.1913484 0 -0.9815222 0 0.2221608 -0.97501 -0.2618947 0 -0.9650965 0 0 1 0.9999813 0 -0.006104767 0 1 0 -0.9999813 0 0.006104886</float_array>
+          <technique_common>
+            <accessor source="#TreeCollisionGeometry-mesh-normals-array" count="28" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="TreeCollisionGeometry-mesh-vertices">
+          <input semantic="POSITION" source="#TreeCollisionGeometry-mesh-positions"/>
+        </vertices>
+        <polylist count="28">
+          <input semantic="VERTEX" source="#TreeCollisionGeometry-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#TreeCollisionGeometry-mesh-normals" offset="1"/>
+          <vcount>3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 </vcount>
+          <p>4 0 5 0 1 0 5 1 6 1 2 1 6 2 7 2 3 2 7 3 4 3 0 3 0 4 1 4 2 4 7 5 11 5 8 5 11 6 15 6 12 6 6 7 10 7 11 7 6 8 5 8 9 8 5 9 4 9 8 9 15 10 14 10 13 10 11 11 10 11 14 11 10 12 9 12 13 12 9 13 8 13 12 13 0 14 4 14 1 14 1 15 5 15 2 15 2 16 6 16 3 16 3 17 7 17 0 17 3 18 0 18 2 18 4 19 7 19 8 19 8 20 11 20 12 20 7 21 6 21 11 21 10 22 6 22 9 22 9 23 5 23 8 23 12 24 15 24 13 24 15 25 11 25 14 25 14 26 10 26 13 26 13 27 9 27 12 27</p>
+        </polylist>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="TreeCollisionGeometry" name="TreeCollisionGeometry" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <instance_geometry url="#TreeCollisionGeometry-mesh"/>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene"/>
+  </scene>
+</COLLADA>
