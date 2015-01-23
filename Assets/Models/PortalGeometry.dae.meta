@@ -1,54 +1,44 @@
 fileFormatVersion: 2
-guid: 2ca08eddad1b133449496f5f7e336904
+guid: a374c7fd8aacf564e8477fb0df2ebe69
 ModelImporter:
   serializedVersion: 16
   fileIDToRecycleName:
-    100000: //RootNode
-    100002: LevelGeometry
-    100004: TreeGeometry
-    100006: LevelCollisionGeometry
-    100008: TreeCollisionGeometry
-    100010: MekGeometry
-    100012: Cube
-    100014: PortalGeometry
-    100016: PickupGeometry
-    400000: //RootNode
-    400002: LevelGeometry
-    400004: TreeGeometry
-    400006: LevelCollisionGeometry
-    400008: TreeCollisionGeometry
-    400010: MekGeometry
-    400012: Cube
-    400014: PortalGeometry
-    400016: PickupGeometry
-    2300000: //RootNode
+    100000: Camera
+    100002: LevelCollisionGeometry
+    100004: LevelGeometry
+    100006: MekGeometry
+    100008: //RootNode
+    100010: PortalGeometry
+    100012: TreeCollisionGeometry
+    100014: TreeGeometry
+    400000: Camera
+    400002: LevelCollisionGeometry
+    400004: LevelGeometry
+    400006: MekGeometry
+    400008: //RootNode
+    400010: PortalGeometry
+    400012: TreeCollisionGeometry
+    400014: TreeGeometry
+    2300000: LevelCollisionGeometry
     2300002: LevelGeometry
-    2300004: TreeGeometry
-    2300006: LevelCollisionGeometry
+    2300004: MekGeometry
+    2300006: PortalGeometry
     2300008: TreeCollisionGeometry
-    2300010: MekGeometry
-    2300012: Cube
-    2300014: PortalGeometry
-    2300016: PickupGeometry
-    3300000: //RootNode
+    2300010: TreeGeometry
+    2300012: //RootNode
+    3300000: LevelCollisionGeometry
     3300002: LevelGeometry
-    3300004: TreeGeometry
-    3300006: LevelCollisionGeometry
+    3300004: MekGeometry
+    3300006: PortalGeometry
     3300008: TreeCollisionGeometry
-    3300010: MekGeometry
-    3300012: Cube
-    3300014: PortalGeometry
-    3300016: PickupGeometry
+    3300010: TreeGeometry
+    3300012: //RootNode
     4300000: LevelGeometry
     4300002: TreeGeometry
     4300004: LevelCollisionGeometry
     4300006: TreeCollisionGeometry
     4300008: MekGeometry
-    4300010: Cube
-    4300012: PortalGeometry
-    4300014: PickupGeometry
-    4300016: YoutubeLevelGeometry
-    7400000: Default Take
+    4300010: PortalGeometry
     9500000: //RootNode
   materials:
     importMaterials: 1

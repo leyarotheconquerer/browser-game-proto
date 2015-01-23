@@ -1,9 +1,14 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Movement.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\ItemRequirement.cs">
     <Files>
-      <File FileName="Assets\Scripts\Movement.cs" Line="36" Column="35" />
-      <File FileName="Assets\Scripts\FollowPlayer.cs" Line="14" Column="46" />
+      <File FileName="Assets\Scripts\RotatingAnimation.cs" Line="4" Column="31" />
+      <File FileName="Assets\Scripts\Movement.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\FollowPlayer.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Collector.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Collectible.cs" Line="12" Column="3" />
+      <File FileName="Assets\EnergyRequirement.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\ItemRequirement.cs" Line="23" Column="26" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
