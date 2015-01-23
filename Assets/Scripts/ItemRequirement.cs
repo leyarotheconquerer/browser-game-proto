@@ -10,11 +10,6 @@ public class ItemRequirement : MonoBehaviour {
 	public int RequiredQuantity = 1;
 
 	void Start () {
-		Component[] components = gameObject.GetComponents<Component>();
-
-		foreach(Component component in components) {
-			print (component.name);
-		}
 	}
 	
 	// Update is called once per frame
